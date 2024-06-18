@@ -1,0 +1,19 @@
+﻿<Window x:Class="Task2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Task2"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <PasswordBox HorizontalAlignment="Left" Margin="343,199,0,0" VerticalAlignment="Top" Width="120" x:Name="PasswordBox"/>
+        <TextBox HorizontalAlignment="Left" Margin="343,143,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Login" HorizontalAlignment="Center" Margin="0,112,0,0" VerticalAlignment="Top"/>
+        <Label Content="Password" HorizontalAlignment="Center" Margin="0,168,0,0" VerticalAlignment="Top"/>
+        <CheckBox Content="Показать пароль" HorizontalAlignment="Left" Margin="485,200,0,0" VerticalAlignment="Top" Checked="CheckBox_Checked" Unchecked="CheckBox_Unchecked"/>
+        <Button Content="Авторизоваться" HorizontalAlignment="Left" Margin="357,240,0,0" VerticalAlignment="Top"/>
+        <TextBox HorizontalAlignment="Left" Margin="343,200,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" x:Name="passwordTextBox" Visibility="Hidden"/>
+
+    </Grid>
+</Window>
